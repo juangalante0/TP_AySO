@@ -1,0 +1,20 @@
+ls
+cd repogit
+ks
+ls
+cd TP_AySO/
+ls
+git push
+cat << FIN >> README.md
+Alumno: Juan Galante
+Division: 113
+Turno: Manana
+FIN
+
+cat README.md
+git add .
+git commit -m "FEAT: Actualizo readme"
+git push
+histoy -a
+history -a
+history -a ~/.bash_history
